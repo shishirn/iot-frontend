@@ -1,9 +1,7 @@
 import React, { useMemo, useState, useEffect } from "react";
 import axios from "axios";
 import {useParams} from "react-router-dom";
-
 import Table from "../Table/Table";
-
 
 
 function TempReadings(){

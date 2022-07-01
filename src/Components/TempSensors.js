@@ -49,7 +49,7 @@ const columns = useMemo(
           Cell: e=> {
           let linkto= "/tempreadings/"+e.value;
           return (
-              <Link to={linkto} >Link {e.value} </Link>
+              <Link to={linkto} >Link </Link>
          );
         }
         }
